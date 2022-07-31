@@ -85,7 +85,6 @@ void NameMenu()
     cout << "Type here: ";
     int input;
     cin >> input;
-    // name of the student 
     switch (input)
     {
     case 1:
@@ -113,12 +112,12 @@ void GradeMenu()
     grade ags_1;
     grade ags_2;
     grade ags_3;
+    // menu of the grade student
     cout << "choose which students they will get a grade\n";
     cout << "\n(1).students 1\n" << "\n(2).students 2\n" << "\n(3).students 3 \n";
 
     int input;
     cin >> input;
-    // grade of the student 
     switch (input)
     {
     case 1:
