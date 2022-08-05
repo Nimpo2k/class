@@ -65,8 +65,8 @@ public:
 void DbAvrgMarkClass(double g_dbAvrgMark1, double g_dbAvrgMark2, double g_dbAvrgMark3)
 {
 
-     // give you the average of the class
-     // it's would use the 3 average mark of the 3 student
+     /* give you the average of the class
+     it's would use the 3 average mark of the 3 student */
      double dbAvrgMarkClass = (g_dbAvrgMark1 + g_dbAvrgMark2 + g_dbAvrgMark3) / 3;
 
 }
@@ -136,8 +136,8 @@ void GradeMenu()
          // its fonction inside the class grade -- its will register the grade of student 1
          sg_1.input_grade();
 
-         // its fonction inside the class grade
-         // its will give you a result of the average of the 3 grade you input in input_grade
+         /* its fonction inside the class grade
+         its will give you a result of the average of the 3 grade you input in input_grade */
          sg_1.average_grade_student(g_dblMark1, g_dblMark2, g_dblMark3);
 
          // its will give you the average of the 3 average grade of the 3 student of the class
@@ -148,8 +148,8 @@ void GradeMenu()
          // its fonction inside the class grade -- its will register the grade of student 2
          sg_2.input_grade();
 
-         // its fonction inside the class grade
-         // its will give you a result of the average of the 3 grade you input in input_grade
+         /* its fonction inside the class grade
+         its will give you a result of the average of the 3 grade you input in input_grade */
          sg_2.average_grade_student(g_dblMark1, g_dblMark2, g_dblMark3);
 
          // its will give you the average of the 3 average grade of the 3 student of the class
@@ -160,8 +160,8 @@ void GradeMenu()
         // its fonction inside the class grade -- its will register the grade of student 3
         sg_3.input_grade();
 
-        // its fonction inside the class grade
-        // its will give you a result of the average of the 3 grade you input in input_grade
+        /* its fonction inside the class grade
+        its will give you a result of the average of the 3 grade you input in input_grade */
         sg_3.average_grade_student(g_dblMark1, g_dblMark2, g_dblMark3);
 
         // its will give you the average of the 3 average grade of the 3 student of the class
